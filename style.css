@@ -1,0 +1,193 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+header {
+    background-color: tan;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: bisque;
+    color: lightgoldenrodyellow;
+}
+
+.btn-order {
+    background-color: tan;
+    color: black;
+    padding: 10px 20p;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: lemonchiffon;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero content {
+    max-width: 600px;
+}
+
+.hero content h1 {
+    font-size: 2.3rem;
+}
+
+.btn-primary {
+    background-color: lightskyblue;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Product Section */
+#product h2 {
+    padding: 40px 0 0 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+/* Testimonials Section */
+#Testimonials {
+    background-color: blanchedalmond;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testimonials img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+/* Contact Section */
+#contact  {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+form input,
+textarea {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    border: 1px solid black;
+}
+
+button {
+    text-align: center;
+    background-color: bisque;
+    padding: 10px 20px;
+    color:burlywood;
+    text-decoration: black;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: grey;
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Media Quiries For Responsive */
+@media (max-width:768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
